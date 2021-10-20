@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <title>Hello, world!</title>
+    </head>
+
+    <body>
+        <header class="pt-sm-8 pb-5 position-relative">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-1 p-2" style="color: white;" href="#">Coder</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item rounded-1 mx-2">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item rounded-1 mx-2">
+                                <a class="nav-link text-light" href="#">Practice</a>
+                            </li>
+                            <li class="nav-item rounded-1 mx-2">
+                                <a class="nav-link text-light" href="#">Contest</a>
+                            </li>
+                            <li class="nav-item rounded-1 mx-2">
+                                <a class="nav-link text-light" href="#">Plan</a>
+                            </li>
+                            <li class="nav-item rounded-1 mx-2">
+                                <a class="nav-link text-light" href="#">Contact us</a>
+                            </li>
+                            <li class="nav-item rounded-1 mx-2">
+                                <a class="nav-link text-light" href="#">About us</a>
+                            </li>
+                        </ul>
+                        <span class="badge bg-transparent text-dark fs-6">
+                            <span class="rounded-circle bg-light p-2 text-center">RH</span>
+                            <button class="btn border-0 text-light">Logout</button>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+            <div class="position-absolute w-100 bottom-0 mn-n1">
+                <svg width="100%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>wave-up</title>
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g transform="translate(0.000000, 5.000000)" fill="#ffffff" fill-rule="nonzero">
+                            <g id="wave-up" transform="translate(0.000000, -5.000000)">
+                                <path
+                                    d="M0,50 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z"
+                                    fill="rgb(238 238 238)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </header>
+        <main class="w-75 ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="profile-pic">
+                            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="">
+                            <span class="user-name">Rahul Kumar</span>
+                            <hr class="break">
+                            <span class="badge text-light bg-dark rounded-pill fs-5">Full Stack Developer</span>
+                            <hr class="break">
+                        </div>
+                        <div class="progress-area">
+                            <h4 class="m-2">Your progress</h4>
+                            <span class="fs-6 fw-bold m-2">HTML/CSS</span>
+                            <div class="progress m-2">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                            </div>
+                            <span class="fs-6 fw-bold m-2">JavaScript</span>
+                            <div class="progress m-2">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                            </div>
+                            <span class="fs-6 fw-bold m-2">React</span>
+                            <div class="progress m-2 mb-2">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                            </div>
+                        </div>
+
+                        <div class="contest-prize">
+                            <h4 class="m-2">Winning Prizes</h4>
+                            <div class="d-flex flex-row bd-highlight justify-content-center p-2 fs-5">
+                                <div class="col-4 contest">
+                                    <i class="bi bi-trophy-fill gold">2</i>
+                                    <span>Gold</span>
+                                </div>
+                                <div class="col-4 contest">
+                                    <i class="bi bi-trophy-fill silver">5</i>
+                                    <span>Silver</span>
+                                </div>
+                                <div class="col-4 contest">
+                                    <i class="bi bi-trophy-fill bronze">3</i>
+                                    <span>Bronze</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="contest-prize">
+                            <h4 class="m-2">Spend Efforts</h4>
+                            <div class="d-flex flex-row bd-highlight justify-content-center p-2 fs-5">
+                                <div class="col-4 efforts">
+                                    <span>Reading</span>
+                                    <i class="bi bi-book-half"></i>
+                                    <i class="bi bi-stopwatch">105hr</i>
+                                </div>
+                                <div class="col-4 efforts">
+                                    <span>Lecture</span>
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-stopwatch">65hr</i>
+                                </div>
+                                <div class="col-4 efforts">
+                                    <span>Practice</span>
+                                    <i class="bi bi-code-slash"></i>
+                                    <i class="bi bi-stopwatch">150hr</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contacts fs-5">
+                            <h4 class="m2">Contacts</h4>
+                            <div class="d-flex flex-row justify-content-between p-2">
+                                <span><i class="bi bi-telephone-fill"></i>Phone:</span>
+                                <span>9578134568</span>
+                            </div>
+                            <div class="d-flex flex-row justify-content-between p-2">
+                                <span><i class="bi bi-envelope-fill"></i>Email:</span>
+                                <span>example@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contacts fs-5">
+                            <h4 class="p-2">Hobbies</h4>
+                            <div class="p-2">
+                                <span class="badge rounded-pill bg-light text-dark fs-6">Video Games</span>
+                                <span class="badge rounded-pill bg-light text-dark fs-6">Singing Song</span>
+                                <span class="badge rounded-pill bg-light text-dark fs-6">Playing Football</span>
+                                <span class="badge rounded-pill bg-light text-dark fs-6">Web Series</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="about-user">
+                            <h3>Rahul Kumar</h3>
+                            <hr>
+                            <i>Diligent Computer Science student (3.7/4.0 GPA) from University of New Mexico with proven
+                                research and communication
+                                skills. Interned at Viva Microfunds where I examined the financial health of ten small
+                                businesses to decide on their
+                                loan eligibility. Seeking a junior banker position to expand my business acumen.</i>
+                        </div>
+                        <div class="skills">
+                            <h3>Top Skills</h3>
+                            <hr>
+                            <span class="badge rounded-pill bg-light text-dark fs-6 m-2 p-2">Web Desining</span>
+                            <span class="badge rounded-pill bg-light text-dark fs-6">Web Development</span>
+                            <span class="badge rounded-pill bg-light text-dark fs-6">App Development</span>
+
+                        </div>
+                        <div class="education">
+                            <h3>Education</h3>
+                            <hr>
+                            <h4>Bachelor's Degree</h4>
+                            <i>Bachelor of Science in Computer Science | University of New Mexico, New Mexico</i><br>
+                            <i style="font-weight: 500;">2014-2019</i>
+                            <ul>
+                                <li><span style="font-weight: 500;">*GPA:</span> 3.85*</li>
+                                <li><span style="font-weight: 500;">*Relevant coursework:</span> Weather Modeling,
+                                    Hurricane Prediction and Analysis, Early Warning Systems, Advanced Oceanographic
+                                    Mapping*</li>
+                            </ul>
+                            <br>
+                            <h4>Master's Degree</h4>
+                            <i>Master of Science in Computer Science | George Washington University</i><br>
+                            <i style="font-weight: 500;">2019-2021</i>
+                            <ul>
+                                <li><span style="font-weight: 500;">*GPA:</span> 4.5*</li>
+                                <li><span style="font-weight: 500;">*Relevant coursework:</span> Food Delevering System,
+                                    Online Shoping Interface
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="projects">
+                            <h3>Projects</h3>
+                            <hr>
+                            <p>Professional coder and Web Developer with experience working in TCS of all sizes. Focused and dedicated to
+                            all functions with the ability to produce high-quality product at high volumes and on strict deadlines. There are some project that I have done.</p>
+                            <div class="project-card mt-2">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project-1</h5>
+                                        <p class="card-text">The library management system automates the basic library
+                                            functions to aid in the day-to-day operations of a library. It
+                                            supports functions...</p>
+                                        <a href="#" class="btn text-light">See on Github</a>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project-2</h5>
+                                        <p class="card-text">This student information system is developed using Java as
+                                            the Front-end and MS Access Database integration. This system...
+                                           </p>
+                                        <a href="#" class="btn text-light">See on Github</a>
+                                    </div>
+                                </div>
+                                <div class="card mt-2" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project-3</h5>
+                                        <p class="card-text">Fingerprint matching is affected by non-linear distortion
+                                            introduced in fingerprint impression during the image
+                                            acquisition process.</p>
+                                        <a href="#" class="btn text-light">See on Github</a>
+                                    </div>
+                                </div>
+                                <div class="card mt-2" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1562813733-b31f71025d54?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project-4</h5>
+                                        <p class="card-text">This is a real-time remote patient monitoring service
+                                            through the world wide web (WWW). It allows physicians to monitor...
+                                            </p>
+                                        <a href="#" class="btn text-light">See on Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="position-relative w-100 z-index-1 top-0">
+                <svg width="100%" viewBox="0 0 1860 157" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>wave-down</title>
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g fill="#FFFFFF" fill-rule="nonzero">
+                            <g id="wave-down">
+                                <path
+                                    d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z"
+                                    id="Path-Copy-2" fill="rgb(238 238 238)"
+                                    transform="translate(950.000000,70) rotate(180.000000) translate(-940.000000, -70)">
+                                </path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="container mt-2">
+                <div class="row flex-nowrap fs-5">
+                    <div class="col-md-4">
+                        <h4>Company</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Copyright Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Learn</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Alogrithm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Structure</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Language</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">CS Subject</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Vedio Tutorial</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Web Application</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Web Tutorial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">HTML</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">CSS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">JavaScript</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Node.Js</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="text-light w-100">
+            <div class="container">
+                <p class="text-light text-center">@coder, some rights reserved</p>
+            </div>
+
+        </footer>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+    </body>
+
+</html>

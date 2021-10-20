@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(238, 238, 238);
+    overflow-x: hidden;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+header{
+    height: 350px;
+    background-color: #7209b7;
+}
+.navbar-brand{
+    font-family: 'Monoton', cursive;
+}
+main{
+    margin: 0 auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgb(224, 224, 224);
+    top: -100px;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.profile-pic{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 5px 0px rgb(180, 180, 180);
+    border-radius: 10px;
+    /* border-right: 5px solid rgb(214, 214, 214); */
+}
+
+.profile-pic img{
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.user-name{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.about-user p{
+    padding: 2px;
+}
+
+.skills, .education, .projects, .about-user{
+    display: block;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 5px 0px rgb(180, 180, 180);
+    border-radius: 10px;
+}
+.btn:hover, .navbar-nav .nav-item:hover{
+    background-color: #f72585;
+}
+.btn, .navbar-nav .nav-item{
+    border-style: none;
+    background-color: #7209b7;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.project-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.break:not([size]){
+    height: 5px;
+
+}
+.break{
+    width: 90%;
+    color: #b5179e;
+    background-color: transparent;
+    border: none;
+    border-top: 3px dashed #333;
+    overflow: visible;
+    opacity: 0.5;
+}
+.progress-area, .contest-prize, .contacts{
+    margin: 20px 0;
+    box-shadow: 0px 3px 5px 0px rgb(180, 180, 180);
+    border-radius: 10px;
+    box-sizing: content-box;
+    display: block;
+}
+.progress-bar{
+    background-color: #7209b7;
+    display: block;
+}
+.contest, .efforts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.gold{
+    color: gold;
+}
+.silver{
+    color: silver;
+}
+.bronze{
+    color: rgb(63, 54, 54);
+}
+
+/* Footer area */
+footer{
+    height: 500px;
+    background-color: #240046;
+}
+h4{
+    color: #f72585;
+}
+.nav-link:focus, .nav-link:hover, .navbar-brand:hover {
+    color: #f72585;
+}
+.nav-link{
+    color: white;
+}
